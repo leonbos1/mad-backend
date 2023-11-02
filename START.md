@@ -8,11 +8,15 @@ De backend kan te allen tijden opnieuw gegenereerd worden op basis van de `appli
 
 Installeer jhipster (in dit voorbeeld lokaal). Navigeer naar je lege projectmap en typ:
 
-    `npm install generator/generator-jhipster`
+```bash
+npm install generator/generator-jhipster
+```
 
 LET OP! In versie 8.0.0-rc.1 zit een bug die foutieve schermen genereert. Gebruik (indien nog geen nieuwe release is geweest) de `main` versie:
 
-    `npm install jhipster/generator-jhipster#main`
+```bash
+npm install jhipster/generator-jhipster#main
+```
 
 - Genereer vervolgens de applicatie zelf:
 
