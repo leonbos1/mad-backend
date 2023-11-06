@@ -12,6 +12,8 @@ entity Car {
 
 entity Rental {
     code String,
+    longitude Float,
+    latitude Float,
     fromDate LocalDate,
     toDate LocalDate,
     state RentalState
@@ -86,8 +88,9 @@ enum Body {
 }
 
 enum RentalState {
-    RESERVED,
     ACTIVE,
+    RESERVED,
+    PICKUP,
     RETURNED
 }
 
