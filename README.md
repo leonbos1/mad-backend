@@ -6,7 +6,7 @@ Dit document beschrijft de minimale stappen die nodig zijn om het back-end deel 
 
 De backend kan te allen tijden opnieuw gegenereerd worden op basis van de `application.jdl` en de `model.jdl`. Onderstaande gaat ervan uit dat jhipster is geïnstalleerd ([JHipster installatie](https://www.jhipster.tech/installation/)). In dit voorbeeld wordt gebruik gemaakt van een lokaal (projectdomein) installatie en wordt `npx` gebruikt om de generator aan te roepen. De student kan zelf bepalen hoe hij/zij JHipster geïnstalleerd wil hebben.
 
-Installeer jhipster (in dit voorbeeld lokaal). Navigeer naar je lege projectmap en typ:
+Installeer jhipster (in dit voorbeeld lokaal: https://www.npmjs.com/package/generator-jhipster). Navigeer naar je lege projectmap en typ:
 
 ```bash
 npm install generator-jhipster
@@ -18,7 +18,8 @@ LET OP! In versie 8.0.0 zit een bug die foutieve testclasses genereert. Gebruik 
 npm install jhipster/generator-jhipster#main
 ```
 
-- Genereer vervolgens de applicatie zelf:
+- Copieer de bestanden `application.jdl` en `model.jdl` naar je projectmap.
+- Genereer daarna eerst de applicatie zelf:
 
 ```bash
 npx jhipster jdl application.jdl
