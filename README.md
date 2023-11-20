@@ -9,10 +9,10 @@ De backend kan te allen tijden opnieuw gegenereerd worden op basis van de `appli
 Installeer jhipster (in dit voorbeeld lokaal). Navigeer naar je lege projectmap en typ:
 
 ```bash
-npm install generator/generator-jhipster
+npm install generator-jhipster
 ```
 
-LET OP! In versie 8.0.0-rc.1 zit een bug die foutieve schermen genereert. Gebruik (indien nog geen nieuwe release is geweest) de `main` versie:
+LET OP! In versie 8.0.0 zit een bug die foutieve testclasses genereert. Gebruik (indien nog geen nieuwe release is geweest) de `main` versie:
 
 ```bash
 npm install jhipster/generator-jhipster#main
