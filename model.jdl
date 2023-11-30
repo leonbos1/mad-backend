@@ -7,6 +7,8 @@ entity Car {
     engineSize Integer,
     modelYear Integer,
     since LocalDate,
+    price Float,
+    nrOfSeats Integer,
     body Body
 }
 
