@@ -6,7 +6,7 @@ Dit document beschrijft de minimale stappen die nodig zijn om het backend deel w
 Om met deze beschrijving en JHipster aan de slag te kunnen moet je het volgende op je computer hebben geinstalleerd:
 - Java JDK (minimaal versie 17)
 - node.js/npm recente versie
-- git (voor windows gebruikers is het aan te raden de git shell te gebruiken)
+- git (voor windows gebruikers is het aan te raden de git bash te gebruiken)
 
 # Stappen
 
