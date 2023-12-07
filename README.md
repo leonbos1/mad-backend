@@ -42,3 +42,6 @@ Om met een https-verbinding te werken kun je de applicatie achter een ngrok tunn
 ```bash
 ngrok http 8080
 ```
+
+
+*Let op:* Het is de bedoeling dat iedereen met dezelfde backend werkt. Mocht je ideeën, aanvullingen of verbeteringen hebben voor deze backend, start dan een discussie op github of doe een pull request.
