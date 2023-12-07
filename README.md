@@ -18,6 +18,15 @@ LET OP! In versie 8.0.0 zit een bug die foutieve testclasses genereert. Gebruik 
 npm install jhipster/generator-jhipster#main
 ```
 
+Alternatieve oplossing:
+
+adding the following to the created: com.***.service.UserServiceIT located in /src/test/java/
+
+``` java
+import static org.mockito.Mockito.when;
+```
+
+
 - Copieer de bestanden `application.jdl` en `model.jdl` naar je projectmap.
 - Genereer daarna eerst de applicatie zelf:
 
