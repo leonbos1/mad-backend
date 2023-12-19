@@ -3,14 +3,15 @@
 Dit document beschrijft de minimale stappen die nodig zijn om het backend deel woor de course *Mobile Application Development* draaiend te krijgen.
 
 # Voorwaarden
-Om met deze beschrijving en JHipster aan de slag te kunnen moet je het volgende op je computer hebben geinstalleerd:
+Om met deze beschrijving en JHipster aan de slag te kunnen moet je het volgende op je computer hebben geïnstalleerd:
+
 - Java JDK (minimaal versie 17)
 - node.js/npm recente versie
 - git (voor windows gebruikers is het aan te raden de git bash te gebruiken)
 
 # Stappen
 
-De backend kan te allen tijde opnieuw gegenereerd worden op basis van de `application.jdl` en de `model.jdl`. Onderstaande gaat ervan uit dat JHipster is geïnstalleerd (zie [JHipster installatie](https://www.jhipster.tech/installation/)). In onderstaand voorbeeld wordt gebruik gemaakt van een lokaal (projectdomein) installatie en wordt `npx` gebruikt om de generator aan te roepen. Dit hoeft niet, je kunt zelf bepalen hoe je JHipster installeert. Volg de instructies op de jhipster site.
+De backend kan te allen tijde opnieuw gegenereerd worden op basis van de `application.jdl` en de `model.jdl`. Onderstaande gaat ervan uit dat JHipster is geïnstalleerd (zie [JHipster installatie](https://www.jhipster.tech/installation/)). In onderstaand voorbeeld wordt gebruik gemaakt van een lokaal (projectdomein) installatie en wordt `npx` gebruikt om de generator aan te roepen. Dit hoeft niet, je kunt zelf bepalen hoe je JHipster installeert. Volg de instructies op [de JHipster site](https://www.jhipster.tech/installation/).
 
 Installeer JHipster door in een lege map het volgende commando uit te voeren:
 
@@ -41,9 +42,7 @@ Voeg deze import:
 import static org.mockito.Mockito.when;
 ```
 
-Toe aan `nl.hanze.se4.automaat.service.UserServiceIT` (te vinden in `/src/test/java/`)
-
-Nu zou de applicatie moeten builden.
+Toe aan `nl.hanze.se4.automaat.service.UserServiceIT` (te vinden in `/src/test/java/`). Nu zou de applicatie moeten builden.
 
 ## Seed data
 
@@ -84,6 +83,5 @@ De volgende stappen beschrijven hoe je ngrok aan de praat kan krijgen:
 ```bash
 ngrok http 8080 --domain ladybird-sharp-alpaca.ngrok-free.app
 ```
-
 
 *Let op:* Het is de bedoeling dat iedereen met dezelfde backend werkt. Mocht je ideeën, aanvullingen of verbeteringen hebben voor deze backend, start dan een discussie op github of doe een pull request.
