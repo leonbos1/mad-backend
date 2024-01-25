@@ -1,0 +1,25 @@
+{
+  "annotations": {
+    "changelogDate": "20240125134355"
+  },
+  "applications": "*",
+  "entityTableName": "inspection_photo",
+  "fields": [
+    {
+      "fieldName": "photo",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    }
+  ],
+  "name": "InspectionPhoto",
+  "relationships": [
+    {
+      "otherEntityName": "inspection",
+      "otherEntityRelationshipName": "photo",
+      "relationshipName": "inspection",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
