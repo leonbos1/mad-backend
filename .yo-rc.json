@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "AutoMaat",
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "angular",
+    "clientPackageManager": "npm",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "devServerPort": 4200,
+    "enableHibernateCache": false,
+    "entities": [],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "YWVkYjA5MmU5NDQwMGU5ZjJmZmU1M2RjNzBjNjMxYzRmMTVhMTkxYWE1YjY1NDM3NGE0YzcyMTY5OTc0M2RjMDc5YmI3Y2NmZjhlZTA1NDZhYWI4Yzc1ZDdkNTMwMGVjZTVmZGQwNWNlNTgyNTkwMjczMzBiNWEzZTA2MDE1N2Y=",
+    "languages": ["en", "nl"],
+    "nativeLanguage": "en",
+    "packageFolder": "nl/hanze/se4/automaat",
+    "packageName": "nl.hanze.se4.automaat",
+    "prodDatabaseType": "mysql"
+  }
+}
